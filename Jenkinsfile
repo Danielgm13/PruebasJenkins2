@@ -31,6 +31,10 @@ pipeline {
   
   }
   post {
+    
+    always{
+      env.saludo = "saludo desde pipelin"
+      }
   
     success { 
       echo "Success"
