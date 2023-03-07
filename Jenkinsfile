@@ -33,7 +33,9 @@ pipeline {
   post {
     
     always{
+      script{
       env.saludo = "saludo desde pipelin"
+      }
       }
   
     success { 
