@@ -17,7 +17,7 @@ pipeline {
       script{
    
         groovySaludo = load("groovy/saludo.groovy")
-        groovySaludo.saludo()
+        groovySaludo.saludo(${apellidos})
 
         
         
